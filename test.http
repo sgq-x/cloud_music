@@ -1,0 +1,20 @@
+@url = http://localhost:8080/api
+@post = Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+
+
+@json = Content-Type: application/json
+### 发现页面
+ // 轮播图
+get {{url}}/banner?type=1
+### 
+ // 发现页私人fm
+get {{url}}/personal_fm
+### 
+ // 发现页歌单
+get {{url}}/top/playlist
+
+{
+  "limit": 30,
+  "order": "hot",
+  "cat": "cat"
+}

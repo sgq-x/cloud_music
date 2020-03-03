@@ -1,6 +1,6 @@
 # cloud-music
 
-> A Vue.js project
+> A Vue.js project -- 网易云音乐
 
 ## Build Setup
 
